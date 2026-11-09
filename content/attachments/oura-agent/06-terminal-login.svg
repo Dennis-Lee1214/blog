@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 380" width="960" height="380" font-family="-apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Helvetica Neue', Arial, sans-serif">
+<rect width="960" height="380" rx="16" fill="#f5f6f8"/>
+<g><rect x="40" y="30" width="880" height="330" rx="12" fill="#1e1f22" stroke="#d0d3d9" stroke-width="0"/>
+<path d="M40 42 a12 12 0 0 1 12 -12 h856 a12 12 0 0 1 12 12 v24 h-880 z" fill="#2b2d31"/>
+<circle cx="60" cy="48" r="6" fill="#ff5f57"/><circle cx="80" cy="48" r="6" fill="#febc2e"/><circle cx="100" cy="48" r="6" fill="#28c840"/>
+<text x="480.0" y="53" text-anchor="middle" font-size="13" fill="#c9ccd1">终端 — zsh</text></g><text x="66" y="90" font-size="15" font-family="Menlo, 'SF Mono', Consolas, monospace" xml:space="preserve"><tspan fill="#6a9955">~/oura % </tspan><tspan fill="#e8e8e8">python3 oura_api.py login</tspan></text>
+<text x="66" y="114" font-size="15" font-family="Menlo, 'SF Mono', Consolas, monospace" xml:space="preserve"><tspan fill="#808080">正在打开浏览器授权……如果没自动打开,复制这个链接:</tspan></text>
+<text x="66" y="138" font-size="15" font-family="Menlo, 'SF Mono', Consolas, monospace" xml:space="preserve"><tspan fill="#4fc1ff"> https://cloud.ouraring.com/oauth/authorize?response_type=code&amp;…</tspan></text>
+<text x="66" y="162" font-size="15" font-family="Menlo, 'SF Mono', Consolas, monospace" xml:space="preserve"><tspan fill="#6a9955">成功!token 已保存到 /Users/lihongyi/.oura_tokens.json</tspan></text>
+<text x="66" y="186" font-size="15" font-family="Menlo, 'SF Mono', Consolas, monospace" xml:space="preserve"><tspan fill="#6a9955">~/oura % </tspan><tspan fill="#e8e8e8">python3 oura_api.py sleep 3</tspan></text>
+<text x="66" y="210" font-size="15" font-family="Menlo, 'SF Mono', Consolas, monospace" xml:space="preserve"><tspan fill="#808080">2026-11-07 睡眠分数: </tspan><tspan fill="#dcdcaa">··</tspan></text>
+<text x="66" y="234" font-size="15" font-family="Menlo, 'SF Mono', Consolas, monospace" xml:space="preserve"><tspan fill="#808080">2026-11-08 睡眠分数: </tspan><tspan fill="#dcdcaa">··</tspan></text>
+<text x="66" y="258" font-size="15" font-family="Menlo, 'SF Mono', Consolas, monospace" xml:space="preserve"><tspan fill="#808080">2026-11-09 睡眠分数: </tspan><tspan fill="#dcdcaa">··</tspan></text>
+<text x="66" y="282" font-size="15" font-family="Menlo, 'SF Mono', Consolas, monospace" xml:space="preserve"><tspan fill="#6a9955">~/oura % </tspan><tspan fill="#e8e8e8">▌</tspan></text><text x="900" y="345" text-anchor="end" font-size="12" fill="#888">示意：分数已隐去</text>
+</svg>

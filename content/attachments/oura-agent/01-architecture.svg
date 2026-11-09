@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 330" width="960" height="330" font-family="-apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Helvetica Neue', Arial, sans-serif">
+<rect width="960" height="330" rx="16" fill="#f5f6f8"/>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#8a8f98"/></marker></defs><text x="40" y="52" font-size="22" font-weight="700" fill="#1f2328">整体思路</text><rect x="40" y="110" width="150" height="90" rx="12" fill="#fff" stroke="#7c5cff" stroke-width="2"/>
+<text x="115.0" y="151.0" text-anchor="middle" font-size="17" font-weight="600" fill="#1f2328">Oura 戒指</text>
+<text x="115.0" y="175.0" text-anchor="middle" font-size="13" fill="#666">采集睡眠/心率</text><rect x="225" y="110" width="150" height="90" rx="12" fill="#fff" stroke="#7c5cff" stroke-width="2"/>
+<text x="300.0" y="151.0" text-anchor="middle" font-size="17" font-weight="600" fill="#1f2328">Oura 云端</text>
+<text x="300.0" y="175.0" text-anchor="middle" font-size="13" fill="#666">App 同步上传</text><rect x="410" y="110" width="150" height="90" rx="12" fill="#fff" stroke="#1a73e8" stroke-width="2"/>
+<text x="485.0" y="151.0" text-anchor="middle" font-size="17" font-weight="600" fill="#1f2328">Oura API</text>
+<text x="485.0" y="175.0" text-anchor="middle" font-size="13" fill="#666">OAuth2 授权</text><rect x="595" y="110" width="150" height="90" rx="12" fill="#fff" stroke="#1a7f37" stroke-width="2"/>
+<text x="670.0" y="151.0" text-anchor="middle" font-size="17" font-weight="600" fill="#1f2328">oura_mcp.py</text>
+<text x="670.0" y="175.0" text-anchor="middle" font-size="13" fill="#666">我电脑上的 MCP 服务器</text><rect x="780" y="110" width="150" height="90" rx="12" fill="#fff" stroke="#d97757" stroke-width="2"/>
+<text x="855.0" y="151.0" text-anchor="middle" font-size="17" font-weight="600" fill="#1f2328">Claude 桌面版</text>
+<text x="855.0" y="175.0" text-anchor="middle" font-size="13" fill="#666">直接问数据</text><line x1="192" y1="155" x2="221" y2="155" stroke="#8a8f98" stroke-width="2" marker-end="url(#ah)"/><line x1="377" y1="155" x2="406" y2="155" stroke="#8a8f98" stroke-width="2" marker-end="url(#ah)"/><line x1="562" y1="155" x2="591" y2="155" stroke="#8a8f98" stroke-width="2" marker-end="url(#ah)"/><line x1="747" y1="155" x2="776" y2="155" stroke="#8a8f98" stroke-width="2" marker-end="url(#ah)"/><rect x="410" y="240" width="335" height="60" rx="10" fill="#eef6ee" stroke="#1a7f37" stroke-dasharray="5 4"/><text x="577" y="266" text-anchor="middle" font-size="14" fill="#1a7f37">这一段全部跑在我自己的电脑上</text><text x="577" y="288" text-anchor="middle" font-size="13" fill="#555">token 只存在本地，不经过第三方</text>
+</svg>

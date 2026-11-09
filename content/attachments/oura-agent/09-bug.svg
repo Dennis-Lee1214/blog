@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 345" width="960" height="345" font-family="-apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Helvetica Neue', Arial, sans-serif">
+<rect width="960" height="345" rx="16" fill="#f5f6f8"/>
+<g><rect x="40" y="30" width="880" height="300" rx="12" fill="#1e1f22" stroke="#d0d3d9" stroke-width="0"/>
+<path d="M40 42 a12 12 0 0 1 12 -12 h856 a12 12 0 0 1 12 12 v24 h-880 z" fill="#2b2d31"/>
+<circle cx="60" cy="48" r="6" fill="#ff5f57"/><circle cx="80" cy="48" r="6" fill="#febc2e"/><circle cx="100" cy="48" r="6" fill="#28c840"/>
+<text x="480.0" y="53" text-anchor="middle" font-size="13" fill="#c9ccd1">~/Library/Logs/Claude/mcp-server-oura.log</text></g><text x="66" y="90" font-size="14" font-family="Menlo, 'SF Mono', Consolas, monospace" xml:space="preserve"><tspan fill="#808080">[oura] Server started and connected successfully</tspan></text>
+<text x="66" y="114" font-size="14" font-family="Menlo, 'SF Mono', Consolas, monospace" xml:space="preserve"><tspan fill="#f48771">Traceback (most recent call last):</tspan></text>
+<text x="66" y="138" font-size="14" font-family="Menlo, 'SF Mono', Consolas, monospace" xml:space="preserve"><tspan fill="#808080">  File &quot;/Users/lihongyi/oura/oura_mcp.py&quot;, line 14, in &lt;module&gt;</tspan></text>
+<text x="66" y="162" font-size="14" font-family="Menlo, 'SF Mono', Consolas, monospace" xml:space="preserve"><tspan fill="#dcdcaa">    from mcp.server.fastmcp import FastMCP</tspan></text>
+<text x="66" y="186" font-size="14" font-family="Menlo, 'SF Mono', Consolas, monospace" xml:space="preserve"><tspan fill="#f48771">ImportError: …  FastMCP …</tspan></text>
+<text x="66" y="210" font-size="14" font-family="Menlo, 'SF Mono', Consolas, monospace" xml:space="preserve"><tspan fill="#f48771">[oura] Server transport closed unexpectedly</tspan></text>
+<text x="66" y="234" font-size="14" font-family="Menlo, 'SF Mono', Consolas, monospace" xml:space="preserve"><tspan fill="#808080"></tspan></text>
+<text x="66" y="258" font-size="14" font-family="Menlo, 'SF Mono', Consolas, monospace" xml:space="preserve"><tspan fill="#ce9178">原因：uv 自动装了最新的 mcp 2.x，里面 FastMCP 改了位置</tspan></text>
+<text x="66" y="282" font-size="14" font-family="Menlo, 'SF Mono', Consolas, monospace" xml:space="preserve"><tspan fill="#6a9955">解决：在 args 里写 &quot;mcp&lt;2&quot;，固定用 1.x 版本</tspan></text><text x="900" y="318" text-anchor="end" font-size="12" fill="#888">示意：日志已简化</text>
+</svg>
