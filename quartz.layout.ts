@@ -11,7 +11,7 @@ export const sharedPageComponents: SharedLayout = {
         title: "最新文章",
         limit: 20,
         showTags: true,
-        filter: (f) => f.slug!.startsWith("posts/"),
+        filter: (f) => f.slug!.startsWith("posts/") && !f.slug!.endsWith("/index"),
       }),
       condition: (page) => page.fileData.slug === "index",
     }),
